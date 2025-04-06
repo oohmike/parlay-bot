@@ -1,2 +1,5 @@
-Procfile: Paste workers: python
-paralay_bot.py, then commit.
+Procfile: 
+Paste workers: 
+python
+paralay_bot.py, 
+then commit.

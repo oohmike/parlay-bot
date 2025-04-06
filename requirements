@@ -1,2 +1,4 @@
-requirements.txt: Paste discord.py
-and requests (one per line), then commit
+requirements.txt: 
+Paste discord.py
+and requests (one per line), 
+then commit

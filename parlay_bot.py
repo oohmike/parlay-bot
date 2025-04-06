@@ -162,4 +162,4 @@ async def before_daily_update():
 daily_update.start()
 
 # Run the bot
-bot.run('MTM1ODI3MDg3MDQ5MzA3MzQ4MA.Gz7sPm.sc5WsM3TUEnr0tjX5x74vXheXCLgkiFNfIwzj8')  # Replace with your Discord bot token
+bot.run('...')  # Replace with your Discord bot token

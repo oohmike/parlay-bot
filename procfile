@@ -2,4 +2,4 @@ Procfile:
 Paste workers: 
 python
 paralay_bot.py, 
-then commit.
+then commit

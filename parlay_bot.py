@@ -162,4 +162,11 @@ async def before_daily_update():
 daily_update.start()
 
 # Run the bot
-bot.run('...')  # Replace with your Discord bot token
+import os
+
+TOKEN = os.getenv("DISCORD_TOKEN")
+if not TOKEN:
+    raise ValueError("DISCORD_TOKEN environment variable not set.")
+
+bot.run(TOKEN)
+ # Replace with your Discord bot token
